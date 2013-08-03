@@ -57,7 +57,7 @@
 				the_title_attribute( 'echo=0' )
 			);
 		?>
-
+		|
 		<?php edit_post_link( __( 'Edit', 'minimal-retro' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
