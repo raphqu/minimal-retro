@@ -15,7 +15,7 @@
 			<?php do_action( 'minimal_retro_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'minimal-retro' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'minimal-retro' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'minimal-retro' ), 'minimal-retro', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s', 'minimal-retro' ), 'minimal-retro', '<a href="http://www.raphqu.com/" rel="designer">raphqu</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
