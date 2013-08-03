@@ -1,9 +1,9 @@
 /*
 Theme Name: minimal-retro
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Theme URI: http://github.com/raphqu/minimal-retro/
+Author: raphqu
+Author URI: http://www.raphqu.com/
+Description: WordPress theme based on _s made for my blog
 Version: 1.0
 License: GNU General Public License
 License URI: license.txt
@@ -599,4 +599,92 @@ object {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+/* =Own Styling
+----------------------------------------------- */
+
+/* Temporary hidden parts */
+#site-navigation, #secondary, .site-content .comments-area, .comments-link {
+	display: none;
+}
+
+/* Global styles */
+.site {
+	margin: 0 auto;
+	width: 80%;
+	font-family: monospace;
+	font-size: 0.9em;
+}
+
+.site-title {
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+.site-title a {
+	text-decoration: none;
+	color: gray;
+}
+
+.site-content {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dotted #ccc;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.site-content a {
+	color: #777;
+	text-decoration: none;
+}
+
+/* Home page styles (content.php) */
+.home .post {
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.post:last-child {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* Single post page styles (single.php) */
+.site-content .post-navigation {
+	font-size: 0.8em;
+}
+
+/* Home page and single post page styles */
+.site-content .entry-meta {
+	font-size: 0.7em;
+	letter-spacing: 1px;
+}
+
+/* Mixed */
+.site-content .page-title, .site-content .entry-title {
+	font-weight: bold;
+	color: #777;
+}
+
+/* 404 error page styles */
+.site-content .not-found form, .site-content .not-found div {
+	display: none;
+}
+
+/* Footer styles */
+.site-footer {
+	padding-left: 5px;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+}
+
+.site-info a {
+	color: gray;
+	text-decoration: none;
 }
